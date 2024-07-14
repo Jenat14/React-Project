@@ -6,10 +6,10 @@ function Testimonial(){
             <Title
             title="Testimonials"/>
             <div className="flex justify-center mt-8">
-                <div className="border border-white flex flex-col justify-between items-center m-2 p-2">
-                    <div className="flex justify-start w-full m-4 ">
+                <div className="border border-white rounded-lg flex flex-col justify-between items-center m-2 p-8">
+                    <div className="flex justify-start w-full ">
                         <img src="src\assets\t1.png"></img>
-                        <div className="font-medium text-white text-[16px]">
+                        <div className="font-medium text-white text-[16px] ml-2">
                             <h6>Claire Bell</h6>
                             <p >Designer</p>
                         </div>
@@ -22,11 +22,11 @@ function Testimonial(){
                         goal for the month and year.your financial 
                         goal for the month and year.</p>
                 </div>
-                <div className="border border-white flex flex-col justify-between items-center m-2 p-2">
-                    <div className="flex justify-start w-full m-4 ">
-                        <img src="src\assets\t1.png"></img>
-                        <div className="font-medium text-white text-[16px]">
-                            <h6>Claire Bell</h6>
+                <div className="border border-white rounded-lg flex flex-col justify-between items-center m-2 p-8">
+                    <div className="flex justify-start w-full ">
+                        <img src="src\assets\t2.png"></img>
+                        <div className="font-medium text-white text-[16px] ml-2">
+                            <h6>Francisco Lane</h6>
                             <p >Designer</p>
                         </div>
                     </div>
@@ -40,12 +40,12 @@ function Testimonial(){
                 </div>
 
             </div>
-            <div className="flex justify-center mt-8">
-                <div className="border border-white flex flex-col justify-between items-center m-2 p-2">
-                    <div className="flex justify-start w-full m-4 ">
-                        <img src="src\assets\t1.png"></img>
-                        <div className="font-medium text-white text-[16px]">
-                            <h6>Claire Bell</h6>
+            <div className="flex justify-center">
+                <div className="border border-white rounded-lg flex flex-col justify-between items-center m-2 p-8">
+                    <div className="flex justify-start w-full ">
+                        <img src="src\assets\t3.png"></img>
+                        <div className="font-medium text-white text-[16px] ml-2">
+                            <h6>Ralph Fisher</h6>
                             <p >Designer</p>
                         </div>
                     </div>
@@ -57,11 +57,11 @@ function Testimonial(){
                         goal for the month and year.your financial 
                         goal for the month and year.</p>
                 </div>
-                <div className="border border-white flex flex-col justify-between items-center m-2 p-2">
-                    <div className="flex justify-start w-full m-4 ">
-                        <img src="src\assets\t1.png"></img>
-                        <div className="font-medium text-white text-[16px]">
-                            <h6>Claire Bell</h6>
+                <div className="border border-white rounded-lg flex flex-col justify-between items-center m-2 p-8">
+                    <div className="flex justify-start w-full ">
+                        <img src="src\assets\t4.png"></img>
+                        <div className="font-medium text-white text-[16px] ml-2">
+                            <h6>Jorge Murphy</h6>
                             <p >Designer</p>
                         </div>
                     </div>
