@@ -10,7 +10,7 @@ function Features(){
         </div>
     );
     return(
-        <div className=" h-auto flex flex-col items-center justify-center text-white text-center h-[1200px] mb-40">
+        <div className="h-auto flex flex-col items-center justify-center text-white text-center h-[1200px] mb-40">
             <Title
                 title="Features"
                 description="Most calendars are designed for teams. Slate is designed for 
