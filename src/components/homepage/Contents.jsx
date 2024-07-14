@@ -1,7 +1,7 @@
 import Title from "./Title";
 function Contents(){
     const Contentbox = ({heading,text,button,image}) =>(
-        <div className="bg-white w-[480px] h-[650px] flex flex-col justify-between items-center m-7 p-[50px]">
+        <div className="bg-white w-[480px] h-[650px] flex flex-col rounded-xl justify-between items-center m-7 p-[50px]">
             <h4 className="font-medium text-[25px]">{heading}</h4>
             <p className="w-72 text-[#5C5C5C] p-3 text-center">{text}</p>
             <a href="#"  className="font-medium">
@@ -16,7 +16,7 @@ function Contents(){
                 title="Contents"
                 description="We focus on ergonomics and meeting you where you work. It's only a keystroke away."
             />
-            <div className="flex justify-center mt-8">
+            <div className="flex flex-col md:flex-row justify-center items-center mt-8">
                 <Contentbox
                 heading="Work"
                 text="Ever wondered if you're too reliant on a client for work? Slate helps you identify ."

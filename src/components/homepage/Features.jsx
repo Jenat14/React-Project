@@ -20,7 +20,7 @@ function Features(){
                     <img src="src/assets/features-chatbot.png" className="relative" alt="Chatbot Image"></img>
                     <img src="src/assets/features-chart.png" className="absolute w-[70%] top-[80%] left-[60%] -translate-x-2/3 -translate-y-1/3 "alt="Chart Image"></img>
                 </div>
-                <div className="ml-11 mt-14 md:mt-0">
+                <div className="ml-11 mt-24 md:mt-0">
                     <Content
                     icon="src\assets\f-round-restaurant-menu.png"
                     heading="A single source of truth"
