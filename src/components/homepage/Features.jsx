@@ -15,10 +15,10 @@ function Features(){
                 title="Features"
                 description="Most calendars are designed for teams. Slate is designed for 
             freelancers who want a simple way to plan their schedule."/>
-            <div className="mt-[50px] flex">
+            <div className="mt-[50px] flex flex-col md:flex-row">
                 <div class="relative">
-                    <img src="src/assets/features-chatbot.png" class="relative" alt="Chatbot Image"></img>
-                    <img src="src/assets/features-chart.png" class="absolute top-[450px] left-[350px] z-20" alt="Chart Image"></img>
+                    <img src="src/assets/features-chatbot.png" className="relative" alt="Chatbot Image"></img>
+                    <img src="src/assets/features-chart.png" className="absolute top-[80%] left-[65%] transform -translate-x-1/3 -translate-y-1/3 z-20 "alt="Chart Image"></img>
                 </div>
                 <div className="ml-11">
                     <Content
