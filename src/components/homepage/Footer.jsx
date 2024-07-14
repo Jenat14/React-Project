@@ -2,10 +2,10 @@ function Footer(){
     const Comp = ({heading, link1, link2, link3, link4, href1, href2, href3, href4})=>(
             <div className="mx-5">
                 <h6 className="text-white font-medium text-xl mb-5">{heading}</h6>
-                <a href={href1} className="text-white font-medium text-base"><p className="mx-2 my-4">{link1}</p></a>
-                <a href={href2} className="text-white font-medium text-base"><p className="mx-2 my-4">{link2}</p></a>
-                <a href={href3} className="text-white font-medium text-base"><p className="mx-2 my-4">{link3}</p></a>
-                <a href={href4} className="text-white font-medium text-base"><p className="mx-2 my-4">{link4}</p></a>
+                <a href={href1} className="text-white font-medium text-base hover:text-zinc-400"><p className="mx-2 my-4">{link1}</p></a>
+                <a href={href2} className="text-white font-medium text-base hover:text-zinc-400"><p className="mx-2 my-4">{link2}</p></a>
+                <a href={href3} className="text-white font-medium text-base hover:text-zinc-400"><p className="mx-2 my-4">{link3}</p></a>
+                <a href={href4} className="text-white font-medium text-base hover:text-zinc-400"><p className="mx-2 my-4">{link4}</p></a>
             </div>
     );
     const Addr = ({img,text}) =>(
@@ -62,9 +62,9 @@ function Footer(){
                     text="(239) 555-0108"
                     />
                     <div className="flex justify-between w-44 my-8">
-                        <a href="#"><img src="src\assets\f-twitter.png"></img></a>
-                        <a href="#"><img src="src\assets\f-facebook.png"></img></a>
-                        <a href="#"><img src="src\assets\f-linkedin.png"></img></a>
+                        <a href="#"><img src="src\assets\f-twitter.png" className="transform hover:scale-110 transition duration-300"></img></a>
+                        <a href="#"><img src="src\assets\f-facebook.png" className="transform hover:scale-110 transition duration-300"></img></a>
+                        <a href="#"><img src="src\assets\f-linkedin.png" className="transform hover:scale-110 transition duration-300"></img></a>
                     </div>
                 </div>
             </div>
