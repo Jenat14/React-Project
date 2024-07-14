@@ -17,7 +17,7 @@ function Testimonial(){
         <div className="flex flex-col items-left">
             <Title
             title="Testimonials"/>
-            <div className="flex flex-colg items-center">
+            <div className="flex flex-col items-center">
                 <div className="w-fit grid grid-cols-1 md:grid-cols-2 gap-2 mt-8">
                     <Person
                         photo="src/assets/t1.png"
