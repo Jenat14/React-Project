@@ -21,7 +21,7 @@ function Gallery(){
                     <img src="src\assets\g4.png" alt="Image 4" className="h-64 object-cover m-3 rounded-md"/>
                 </div>
             </div>
-            <div className="grid w-full gap-5 items-center grid-cols-1 m-5 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid w-full gap-5 items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                 <div>
                     <img src="src\assets\g5.png" alt="Image 1" className="w-full h-64 object-cover m-3 rounded-md"/>
                 </div>
