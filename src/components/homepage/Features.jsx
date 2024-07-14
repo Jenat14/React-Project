@@ -18,7 +18,7 @@ function Features(){
             <div className="mt-[50px] flex flex-col md:flex-row items-center">
                 <div class="relative w-[70%]">
                     <img src="src/assets/features-chatbot.png" className="relative" alt="Chatbot Image"></img>
-                    <img src="src/assets/features-chart.png" className="absolute w-[70%] top-[80%] left-[60%] -translate-x-2/3 -translate-y-1/3 "alt="Chart Image"></img>
+                    <img src="src/assets/features-chart.png" className="absolute w-[70%] top-[80%] left-[60%] -translate-x-2/3 md:-translate-x-1/3 -translate-y-1/3 "alt="Chart Image"></img>
                 </div>
                 <div className="ml-11 mt-24 md:mt-0">
                     <Content
