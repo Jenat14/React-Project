@@ -1,5 +1,8 @@
 import Title from "./Title";
-
+import t1 from "../../assets/t1.png";
+import t2 from "../../assets/t2.png";
+import t3 from "../../assets/t3.png";
+import t4 from "../../assets/t4.png";
 function Testimonial(){
     const Person = ({photo,names,role,text}) =>(
         <div className="border border-white rounded-lg flex flex-col justify-between items-center m-2 p-8">
@@ -20,7 +23,7 @@ function Testimonial(){
             <div className="flex flex-col items-center">
                 <div className="w-fit grid grid-cols-1 md:grid-cols-2 gap-2 mt-8">
                     <Person
-                        photo="src/assets/t1.png"
+                        photo={t1}
                         names="Claire Bell"
                         role="Designer"
                         text="Slate helps you see how many more days
@@ -31,7 +34,7 @@ function Testimonial(){
                             goal for the month and year."
                     />
                     <Person
-                        photo="src/assets/t2.png"
+                        photo={t2}
                         names="Francisco Lane"
                         role="Designer"
                         text="Slate helps you see how many more days
@@ -42,7 +45,7 @@ function Testimonial(){
                             goal for the month and year."
                     />
                     <Person
-                        photo="src/assets/t3.png"
+                        photo={t3}
                         names="Ralph Fisher"
                         role="Designer"
                         text="Slate helps you see how many more days
@@ -53,7 +56,7 @@ function Testimonial(){
                             goal for the month and year."
                     />
                     <Person
-                        photo="src/assets/t4.png"
+                        photo={t4}
                         names="Jorge Murphy"
                         role="Designer"
                         text="Slate helps you see how many more days

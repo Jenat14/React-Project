@@ -1,6 +1,9 @@
 import Title from "./Title";
 import chatbot from "../../assets/features-chatbot.png";
 import chart from "../../assets/features-chart.png";
+import menu from "../../assets/f-round-restaurant-menu.png";
+import alien from "../../assets/f-_alien-outline.png";
+import inclusive from "../../assets/f-_all-inclusive.png";
 function Features(){
     const Content = ({icon,heading,text}) => (
         <div className="flex flex-col m-3 mb-[70px]">
@@ -24,17 +27,17 @@ function Features(){
                 </div>
                 <div className="ml-11 mt-24 md:mt-0">
                     <Content
-                    icon="src\assets\f-round-restaurant-menu.png"
+                    icon={menu}
                     heading="A single source of truth"
                     text="When you add work to your Slate calendar we automatically calculate useful insights "
                     />
                     <Content
-                    icon="src\assets\f-_alien-outline.png"
+                    icon={alien}
                     heading="Intuitive interface"
                     text="When you add work to your Slate calendar we automatically calculate useful insights "
                     />
                     <Content
-                    icon="src\assets\f-_all-inclusive.png"
+                    icon={inclusive}
                     heading="Or with rules"
                     text="When you add work to your Slate calendar we automatically calculate useful insights "
                     />

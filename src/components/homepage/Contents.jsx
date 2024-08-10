@@ -1,4 +1,6 @@
 import Title from "./Title";
+import work from "../../assets/work-image.png";
+import data from "../../assets/data image.png";
 function Contents(){
     const Contentbox = ({heading,text,button,image}) =>(
         <div className="bg-white w-[480px] h-[650px] flex flex-col rounded-xl justify-between items-center m-7 p-[50px]">
@@ -21,13 +23,13 @@ function Contents(){
                 heading="Work"
                 text="Ever wondered if you're too reliant on a client for work? Slate helps you identify ."
                 button="Sign Up"
-                image="src\assets\work-image.png"
+                image={work}
                 />
                 <Contentbox
                 heading="Design with real data"
                 text="Ever wondered if you're too reliant on a client for work? Slate helps you identify ."
                 button="Try For Free"
-                image="src\assets\data image.png"
+                image={data}
                 />
             </div>
         </div>

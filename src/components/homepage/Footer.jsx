@@ -1,3 +1,9 @@
+import address from "../../assets/address.png";
+import phone from "../../assets/phone.png";
+import twitter from "../../assets/f-twitter.png";
+import facebook from "../../assets/f-facebook.png";
+import linkedin from "../../assets/f-linkedin.png";
+
 function Footer(){
     const Comp = ({heading, link1, link2, link3, link4, href1, href2, href3, href4})=>(
             <div className="mx-5">
@@ -54,17 +60,17 @@ function Footer(){
                 </div>
                 <div className="mr-12">
                     < Addr
-                    img="src\assets\address.png"
+                    img={address}
                     text="7480 Mockingbird Hill undefined "
                     />
                     < Addr
-                    img="src\assets\phone.png"
+                    img={phone}
                     text="(239) 555-0108"
                     />
                     <div className="flex justify-between w-44 my-8">
-                        <a href="#"><img src="src\assets\f-twitter.png" className="transform hover:scale-110 transition duration-300"></img></a>
-                        <a href="#"><img src="src\assets\f-facebook.png" className="transform hover:scale-110 transition duration-300"></img></a>
-                        <a href="#"><img src="src\assets\f-linkedin.png" className="transform hover:scale-110 transition duration-300"></img></a>
+                        <a href="#"><img src={twitter} className="transform hover:scale-110 transition duration-300"></img></a>
+                        <a href="#"><img src={facebook} className="transform hover:scale-110 transition duration-300"></img></a>
+                        <a href="#"><img src={linkedin} className="transform hover:scale-110 transition duration-300"></img></a>
                     </div>
                 </div>
             </div>

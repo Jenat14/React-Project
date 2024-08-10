@@ -1,5 +1,4 @@
-import Title from "./Title";
-
+import template from "../../assets/template.png";
 function Link(){
     return(
         <div className="flex items-center">
@@ -11,7 +10,7 @@ function Link(){
                     </a>
                 </div>
                 <div>
-                    <img src="src\assets\template.png" className="h-full"></img>
+                    <img src={template} className="h-full"></img>
                 </div>
             </div>
         </div>

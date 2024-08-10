@@ -1,5 +1,10 @@
 import Title from "./Title";
-
+import apple from "../../assets/logos_apple-app-store.png";
+import apiary from "../../assets/logos_apiary.png";
+import android from "../../assets/logos_android-icon.png";
+import basecamp from "../../assets/logos_basecamp.png";
+import airbnb from "../../assets/logos_airbnb.png";
+import ibm from "../../assets/logos_ibm.png";
 function Partners(){
     return(
         <div className="h-auto flex flex-col items-center">
@@ -8,12 +13,12 @@ function Partners(){
             description="We focus on ergonomics and meeting you where you work. It's only a keystroke away."/>
             <div className="m-[40px] w-[60%]">
                 <div className="grid grid-cols-3 md:grid-cols-6 gap-4 place-items-center">
-                    <img src="src/assets/logos_apple-app-store.png" alt="Apple" />
-                    <img src="src/assets/logos_apiary.png" alt="Apiary" />
-                    <img src="src/assets/logos_android-icon.png" alt="Android Icon" />
-                    <img src="src/assets/logos_basecamp.png" alt="Basecamp" />
-                    <img src="src/assets/logos_airbnb.png" alt="Airbnb" />
-                    <img src="src/assets/logos_ibm.png" alt="IBM" />
+                    <img src={apple} alt="Apple" />
+                    <img src={apiary} alt="Apiary" />
+                    <img src={android} alt="Android Icon" />
+                    <img src={basecamp} alt="Basecamp" />
+                    <img src={airbnb} alt="Airbnb" />
+                    <img src={ibm} alt="IBM" />
                 </div>
             </div>
 
