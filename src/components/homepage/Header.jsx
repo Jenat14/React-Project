@@ -1,8 +1,9 @@
+import Logo from "../../assets/Logo.png"
 function Header(){
     return(
             <div className="container content-center p-3 bg-[#181818] flex justify-around">
                 <div className="self-center ml-3.5">
-                    <a href="#"><img src="src\assets\Logo.png"></img></a>
+                    <a href="#"><img src={Logo}></img></a>
                 </div>
                 <div className="content-center text-mx-3 text-white font-medium leading-7 text-white">
                     <a href="#" className="m-4 hover:text-zinc-400">Home</a>
